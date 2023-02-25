@@ -1,0 +1,60 @@
+***********************************************************************
+****************************** UNIDAD 04 ******************************
+***********************************************************************
+
+PARADIGA 				Manera de ver las cosas (Forma de Pensar)
+POO						Dentro de un Paradigma mayor PARADIGMA IMPERATIVO
+
+PARADIGMA IMPERATIVO	trata de indicar medianrte algoritmos precisos,  especficos, finitos 
+						y determinados. el paso a paso de una funcionalidad
+						└> PoO
+
+PARADIGMA DECLARATIVO	Se declaran las necesidades/ intenciones de funcionalidad, y el compilador se encarga 
+						de transformarlo a un algoritmo
+						└> El lenguale mas conocido SQL	
+						└> Paradigma Funcional 	-> codigo masa practico y sencillo 
+						
+NOTA: Clojure lenguajes 100% funcionales, mas relevantes 
+
+JAVA desde la version 8 permite utilizar paradigma funcional mediante Interfaces Funcionales (core)
+
+Las INTERFACES FUNCIONALES  tienen un solo Contrato, y solo expresa una Funcionalidad
+
+INTERFAZ FUNCIONAL		Se pueden utilizar de dos maneras:
+							└> Clases que implementan esa Interfas
+							└> Lambdas
+							
+LAMBDA					una Lambda esta conformda por 3 parametros
+
+									expresiones lambda
+										^
+										|
+						parametros  ----------> expresiones
+						
+						a-> EXPRESION
+						(a,b) -> EXPRESION
+						(a,b,...,n) -> {
+							EXPRESION 1
+							EXPRESION 2
+								.
+								.
+								.
+							EXPRESION n
+						}
+Existen varias Interfaces Funcionales 
+	└>  Interfaces Funcionales SUPLIER:
+			La Funcion no necesita un argumento, pero si devolvera un tipo de dato determinado
+			
+	└>  Interfaces Funcionales CONSUMER:
+			la funcion recibe una variable generica, realiza una operacion y no regresa nada
+			
+	└>  Interfaces Funcionales PREDICATE:
+			la Funcion recibe un Argumento, lo procesa y devuelve un Booleano
+			
+	└>  Interfaces Funcionales FUNCTION:
+			La Funcion recibe un tipo de argumento, lo procesa y devuelve OTRO tipo de dato
+			
+	└>  Interfaces Funcionales UNARYOPERATOR:
+			La Funcion recibe un tipo de argumento, lo procesa y devuelve EL MISMO tipo de dato
+			
+									
