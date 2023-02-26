@@ -34,6 +34,12 @@ public class MainInterfacesFuncionales {
 		listaMappeada.forEach(a -> LOG.info(a));
 		// 5. UNARY OPERATION
 		LOG.error("JAVA UNARY OPERATOR");
+		Stream<Integer> listaC = listaNumeros.stream().map(a -> {
+			Integer valor = a + 1;
+			String cadena = "num: " + valor.toString();
+			return valor;
+		});
+		listaC.forEach(a -> LOG.info(a.toString()));
 	}
 
 }
