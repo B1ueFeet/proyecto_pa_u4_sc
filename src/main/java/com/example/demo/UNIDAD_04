@@ -57,4 +57,5 @@ Existen varias Interfaces Funcionales
 	└>  Interfaces Funcionales UNARYOPERATOR:
 			La Funcion recibe un tipo de argumento, lo procesa y devuelve EL MISMO tipo de dato
 			
-									
+NOTA:	Cuando un Metodo recibe una Interfaz Funcional se lo conoce como METODOS HIGH ORDER
+							
