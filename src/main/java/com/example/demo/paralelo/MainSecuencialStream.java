@@ -1,5 +1,7 @@
 package com.example.demo.paralelo;
 
+import java.time.LocalDateTime;
+import java.time.Period;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -8,7 +10,8 @@ import java.util.stream.Collectors;
 public class MainSecuencialStream {
 
 	public static void main(String[] args) {
-
+		
+		
 		List<Integer> idEstudiante = new ArrayList<>();
 
 		for (int i = 1; i <= 10; i++) {
