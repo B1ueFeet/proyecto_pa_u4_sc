@@ -58,4 +58,36 @@ Existen varias Interfaces Funcionales
 			La Funcion recibe un tipo de argumento, lo procesa y devuelve EL MISMO tipo de dato
 			
 NOTA:	Cuando un Metodo recibe una Interfaz Funcional se lo conoce como METODOS HIGH ORDER
+
+La programacion en paralelo (Multi-Thread) no es aplicable en todo lado 
+  
+una libreria que implementa la clase THREAD es La clase Streams	
+
+los hilos estan relacionados a los procesadores de un computador 
+
+esta programacion siempre viene de una lista 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 							
